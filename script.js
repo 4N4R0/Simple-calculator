@@ -13,7 +13,6 @@ buttons.forEach(button => {
         } 
         else if (value === "=") {
             try {
-                // evaluate expression with order of operations
                 currentInput = eval(currentInput).toString();
                 display.value = currentInput;
             } catch {
