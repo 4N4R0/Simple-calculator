@@ -8,7 +8,7 @@ body {
 }
 
 .calculator {
-    background: white;
+    background: rgba(78, 11, 142, 0.608);
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -21,7 +21,22 @@ body {
     margin-bottom: 10px;
     font-size: 20px;
     text-align: right;
-    padding: 5px;
+}
+
+/* Clear button */
+button:nth-child(13) {
+    background-color: #ff2121;
+    color: white;
+}
+
+/* Operator buttons */
+button:nth-child(4),
+button:nth-child(8),
+button:nth-child(12),
+button:nth-child(16),
+button:nth-child(15) {
+    background-color: #6712efb7;
+    color: white;
 }
 
 .buttons {
